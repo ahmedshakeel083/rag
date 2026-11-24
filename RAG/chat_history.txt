@@ -1,0 +1,2 @@
+HumanMessage(content='Brief about the renewable sources of energy commercially viable')
+AIMessage(content='Based on the latest reports from the International Renewable Energy Agency (IRENA) and the International Energy Agency (IEA), the renewable energy sources with clear commercial viability and large-scale deployment are primarily solar photovoltaic, wind power, and their hybrid systems with battery storage.'),

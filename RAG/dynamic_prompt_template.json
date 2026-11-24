@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "depth",
+        "paper_name",
+        "style"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "    Please summarize the research paper titled '{paper_name}' with the following explanation\n    Explanation Style: {style}\n    Explanation Depth: {depth}\n    1. Mathematical details:\n        - Include relevant equations and derivations.\n        - Explain the mathematical concepts in a clear and concise manner with code snippet where applicable.\n    2. Analogies:\n        - Use relatable analogies to explain complex concepts in a simple way.\n    If certain concepts are not applicable to the paper, respond with \"Insufficient information available\" instead of guessing.\n    Ensure that the summary is accurate, concise, and aligned with provided style and depth.\n    ",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
