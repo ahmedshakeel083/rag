@@ -1,7 +1,8 @@
-from langchain-openai import OpenAI
+from langchain_openai import OpenAI
 from dotenv import load_dotenv
+import os
 
-load_dotenv()  # Load environment variables from .env file
+load_dotenv()
 
 openai_api_key = os.getenv("OPENAI_API_KEY")
 
