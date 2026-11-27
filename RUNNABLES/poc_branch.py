@@ -40,4 +40,4 @@ final_chain = RunnableSequence(report_chain, branch_chain)
 
 result = final_chain.invoke({"topic": "AI and its impact in present tech business"})
 
-print(result)
+print(result) 
